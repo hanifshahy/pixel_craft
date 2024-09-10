@@ -1,0 +1,66 @@
+:root {
+  --section-hight: 650px;
+  --peach-fuzz: #FFBE98;
+
+
+  --first: #062925;
+  --second: #044A42;
+  --third: #3A9188;
+  --fourth: #B8E1DD;
+}
+
+.bg-nav {
+  background: linear-gradient(0.25turn, var(--first), var(--second), var(--third), var(--fourth));
+}
+
+.nav-link {
+  color: var(--first);
+}
+
+.home {
+  background: url(assets/image.png);
+  background-size: cover;
+  height: var(--section-hight);
+  color: wheat;
+}
+
+.c-sizing {
+  font-size: 1.2rem;
+}
+
+.logo {
+  width: 60px;
+  border-radius: 100%;
+}
+
+.about,
+.members,
+.projects,
+.tools,
+.contact {
+  margin: 10px 0;
+  height: var(--section-hight);
+}
+
+.about,
+.projects,
+.contact {
+  background-color: var(--third);
+  color: var(--first);
+}
+
+.members,
+.tools {
+  background-color: var(--fourth);
+  color: var(--second);
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collapse{
+
+  text-align: center;
+}
