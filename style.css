@@ -9,58 +9,17 @@
   --fourth: #B8E1DD;
 }
 
-.bg-nav {
-  background: linear-gradient(0.25turn, var(--first), var(--second), var(--third), var(--fourth));
-}
-
-.nav-link {
-  color: var(--first);
-}
-
-.home {
-  background: url(assets/image.png);
+body {
+  background: url(assets/background_image.jpg) rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
   background-size: cover;
-  height: var(--section-hight);
-  color: wheat;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.c-sizing {
-  font-size: 1.2rem;
-}
-
-.logo {
-  width: 60px;
-  border-radius: 100%;
-}
-
-.about,
-.members,
-.projects,
-.tools,
-.contact {
-  margin: 10px 0;
-  height: var(--section-hight);
-}
-
-.about,
-.projects,
-.contact {
-  background-color: var(--third);
-  color: var(--first);
-}
-
-.members,
-.tools {
-  background-color: var(--fourth);
-  color: var(--second);
-}
-
-.end {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.collapse{
-
-  text-align: center;
+@media(max-width:991px) {
+  .sidebar{
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
 }
